@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T19:34:33.653757+00:00",
+  "generated_at": "2026-08-22T20:36:59.409287+00:00",
   "source": "store",
   "origin": "2026-08-22T23:00:00",
   "model": "aqi-hourly-ridge",
@@ -9,7 +9,7 @@
     "main_pollutant": "pm2_5",
     "concentration": 30.2
   },
-  "ref_now": 101.0,
+  "ref_now": 100.0,
   "outputs": [
     {
       "output": "aqi_plus_01h",
