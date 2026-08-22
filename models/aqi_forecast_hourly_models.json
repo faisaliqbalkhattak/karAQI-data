@@ -1,0 +1,249 @@
+{
+  "persistence": {
+    "metrics_by_group": {
+      "hourly_points": {
+        "mse": 227.28954213747645,
+        "rmse": 15.076124904546143,
+        "mae": 9.674111346516007,
+        "r2": 0.621617149682265,
+        "category_accuracy": 0.8346398305084746,
+        "category_macro_f1": 0.35656655198214987,
+        "high_aqi_recall": 0.7987849418304264
+      },
+      "six_hour_means": {
+        "mse": 496.9340052181419,
+        "rmse": 22.29201662519885,
+        "mae": 16.535693267419962,
+        "r2": 0.14817513531402104,
+        "category_accuracy": 0.7185734463276836,
+        "category_macro_f1": 0.2430060129950515,
+        "high_aqi_recall": 0.6435185185185185
+      },
+      "twelve_hour_means": {
+        "mse": 633.5856795354676,
+        "rmse": 25.171127895576465,
+        "mae": 19.147516478342748,
+        "r2": -0.149870588064702,
+        "category_accuracy": 0.6633474576271187,
+        "category_macro_f1": 0.20730919907467737,
+        "high_aqi_recall": 0.5515603799185889
+      }
+    }
+  },
+  "seasonal_persistence": {
+    "metrics_by_group": {
+      "hourly_points": {
+        "mse": 329.0766007532957,
+        "rmse": 18.140468592439824,
+        "mae": 12.976953860640302,
+        "r2": 0.45216598619135306,
+        "category_accuracy": 0.7668137947269303,
+        "category_macro_f1": 0.2775035562921466,
+        "high_aqi_recall": 0.7178107573625042
+      },
+      "six_hour_means": {
+        "mse": 530.3123352165725,
+        "rmse": 23.028511354765694,
+        "mae": 17.080755649717513,
+        "r2": 0.09095930557446463,
+        "category_accuracy": 0.7051200564971751,
+        "category_macro_f1": 0.22628698426105062,
+        "high_aqi_recall": 0.595679012345679
+      },
+      "twelve_hour_means": {
+        "mse": 630.4557531975831,
+        "rmse": 25.1088779756799,
+        "mae": 18.77532368173258,
+        "r2": -0.14419020361948998,
+        "category_accuracy": 0.6597457627118644,
+        "category_macro_f1": 0.20414111904156743,
+        "high_aqi_recall": 0.5024875621890548
+      }
+    }
+  },
+  "ridge": {
+    "path": "models/aqi_forecast_hourly_ridge.joblib",
+    "params": {
+      "alpha": 10.0,
+      "candidate_alphas": [
+        0.1,
+        1.0,
+        10.0,
+        100.0,
+        300.0,
+        1000.0
+      ]
+    },
+    "metrics_by_group": {
+      "hourly_points": {
+        "mse": 131.69367843521354,
+        "rmse": 11.47578661509587,
+        "mae": 8.208617172413625,
+        "r2": 0.780761451026184,
+        "category_accuracy": 0.8567737758945386,
+        "category_macro_f1": 0.3512155606234617,
+        "high_aqi_recall": 0.7851378075504641
+      },
+      "six_hour_means": {
+        "mse": 330.72120191372585,
+        "rmse": 18.18574172019733,
+        "mae": 13.33335343893568,
+        "r2": 0.43309063153108796,
+        "category_accuracy": 0.7794491525423729,
+        "category_macro_f1": 0.2514593859488901,
+        "high_aqi_recall": 0.5710978835978836
+      },
+      "twelve_hour_means": {
+        "mse": 402.3463486829996,
+        "rmse": 20.058572947321043,
+        "mae": 14.742258997836316,
+        "r2": 0.26979689170845955,
+        "category_accuracy": 0.7353813559322034,
+        "category_macro_f1": 0.2217124538818477,
+        "high_aqi_recall": 0.40705563093622793
+      }
+    }
+  },
+  "xgboost": {
+    "path": "models/aqi_forecast_hourly_xgb.joblib",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 6,
+      "learning_rate": 0.1
+    },
+    "metrics_by_group": {
+      "hourly_points": {
+        "mse": 93.37738894049764,
+        "rmse": 9.66319765608143,
+        "mae": 6.432583435219335,
+        "r2": 0.844548929747228,
+        "category_accuracy": 0.8902248116760829,
+        "category_macro_f1": 0.38861511746863214,
+        "high_aqi_recall": 0.8400826667141763
+      },
+      "six_hour_means": {
+        "mse": 329.8668262530767,
+        "rmse": 18.162236267956562,
+        "mae": 13.071092651433638,
+        "r2": 0.43455516892213253,
+        "category_accuracy": 0.7777189265536724,
+        "category_macro_f1": 0.2493466741656433,
+        "high_aqi_recall": 0.6064814814814815
+      },
+      "twelve_hour_means": {
+        "mse": 430.8639084486331,
+        "rmse": 20.75726158356716,
+        "mae": 15.185374875975644,
+        "r2": 0.2180414555030178,
+        "category_accuracy": 0.7240112994350283,
+        "category_macro_f1": 0.221957764039212,
+        "high_aqi_recall": 0.4554500226142017
+      }
+    }
+  },
+  "_meta": {
+    "created": "2026-08-22",
+    "target": "aqi_hourly_rolling",
+    "output_count": 30,
+    "output_columns": [
+      "aqi_plus_01h",
+      "aqi_plus_02h",
+      "aqi_plus_03h",
+      "aqi_plus_04h",
+      "aqi_plus_05h",
+      "aqi_plus_06h",
+      "aqi_plus_07h",
+      "aqi_plus_08h",
+      "aqi_plus_09h",
+      "aqi_plus_10h",
+      "aqi_plus_11h",
+      "aqi_plus_12h",
+      "aqi_plus_13h",
+      "aqi_plus_14h",
+      "aqi_plus_15h",
+      "aqi_plus_16h",
+      "aqi_plus_17h",
+      "aqi_plus_18h",
+      "aqi_plus_19h",
+      "aqi_plus_20h",
+      "aqi_plus_21h",
+      "aqi_plus_22h",
+      "aqi_plus_23h",
+      "aqi_plus_24h",
+      "aqi_mean_25_30h",
+      "aqi_mean_31_36h",
+      "aqi_mean_37_42h",
+      "aqi_mean_43_48h",
+      "aqi_mean_49_60h",
+      "aqi_mean_61_72h"
+    ],
+    "hourly_point_outputs": "t+1h through t+24h",
+    "six_hour_block_outputs": "means of t+25..t+30, t+31..t+36, t+37..t+42, t+43..t+48",
+    "twelve_hour_block_outputs": "means of t+49..t+60 and t+61..t+72",
+    "input_contract": "historical-only hourly features available at the forecast origin",
+    "evaluation_protocol": "chronological holdout with a 72-hour purge gap",
+    "rolling_origin_protocol": "3 expanding folds, 168-hour test windows, 72-hour embargo; Ridge and persistence",
+    "rolling_origin_metrics_path": "data/processed/hourly_rolling_origin_comparison.csv",
+    "selected_model_by_group": {
+      "hourly_points": "xgboost",
+      "six_hour_means": "ridge",
+      "twelve_hour_means": "ridge"
+    },
+    "release_gate_results": {
+      "pass": "True",
+      "best_model": "ridge",
+      "best_ml_avg_rmse": 22.429415135214356,
+      "persistence_avg_rmse": 23.739476323654788,
+      "best_ml_avg_mae": 18.15160665822822,
+      "persistence_avg_mae": 19.96086860670194,
+      "groups_beaten": 3,
+      "reason": "Best model 'ridge' beats persistence: RMSE 22.43 < 23.74, MAE 18.15 < 19.96, beats on 3/3 groups"
+    },
+    "feature_columns": [
+      "aqi_hourly_rolling",
+      "pm10",
+      "pm2_5",
+      "carbon_monoxide",
+      "nitrogen_dioxide",
+      "sulphur_dioxide",
+      "ozone",
+      "aerosol_optical_depth",
+      "dust",
+      "uv_index",
+      "temperature_2m",
+      "relative_humidity_2m",
+      "dew_point_2m",
+      "precipitation",
+      "rain",
+      "surface_pressure",
+      "cloud_cover",
+      "wind_speed_10m",
+      "wind_direction_10m",
+      "wind_gusts_10m",
+      "aqi_lag_1h",
+      "aqi_lag_24h",
+      "aqi_rolling_6h_mean",
+      "aqi_rolling_24h_mean",
+      "aqi_rolling_6h_std",
+      "aqi_rolling_24h_std",
+      "hour_sin",
+      "hour_cos",
+      "dow_sin",
+      "dow_cos",
+      "is_weekend",
+      "month_sin",
+      "month_cos"
+    ],
+    "n_train_rows": 28248,
+    "n_test_rows": 7080,
+    "target_semantics": "rolling hourly AQI estimate from pollutant-specific EPA windows; not the official daily AQI report",
+    "source_file": "feature_store://karak_feature_store.duckdb",
+    "source_sha256": "1668124a2dc8425332810ac89f6b918125f86f6efe786d4748740eb18f39e223",
+    "python_version": "3.11.16",
+    "numpy_version": "1.26.4",
+    "pandas_version": "2.2.3",
+    "sklearn_version": "1.5.2",
+    "release_gate": "best ML model (by average RMSE across groups) must beat persistence on both average RMSE and average MAE; individual groups may be worse",
+    "tuning_protocol": "Ridge alpha selected from purged TimeSeriesSplit(gap=72) using training data only"
+  }
+}
