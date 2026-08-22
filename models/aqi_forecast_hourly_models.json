@@ -238,7 +238,7 @@
     "n_test_rows": 7080,
     "target_semantics": "rolling hourly AQI estimate from pollutant-specific EPA windows; not the official daily AQI report",
     "source_file": "feature_store://karak_feature_store.duckdb",
-    "source_sha256": "1668124a2dc8425332810ac89f6b918125f86f6efe786d4748740eb18f39e223",
+    "source_sha256": "b3647ddcc81913db1b648bbd026e3185ce55b352d180707541571e012a9efc5b",
     "python_version": "3.11.16",
     "numpy_version": "1.26.4",
     "pandas_version": "2.2.3",
