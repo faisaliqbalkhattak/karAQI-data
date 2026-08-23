@@ -11,7 +11,6 @@ Data repository for the [karAQI](https://github.com/faisaliqbalkhattak/karAQI) a
 | `data/static_forecast.json` | forecast_pipeline | Every hour | 72-hour AQI predictions (30 outputs) + Open-Meteo reference forecast |
 | `data/model_eval.json` | training_pipeline | Daily | Model comparison metrics, SHAP values, rolling-origin results, EDA data |
 | `models/*.joblib` | training_pipeline | Daily | Trained Ridge, Random Forest, XGBoost models |
-| `models/*.keras` | training_pipeline | Daily | Trained LSTM model |
 | `models/*_models.json` | training_pipeline | Daily | Model manifests with metrics and feature schemas |
 
 ---
@@ -23,9 +22,9 @@ karAQI (code repo)                      This repo (karAQI-data)
 ───────────────────                     ────────────────────────
 
 training_pipeline (daily 00:00 UTC)
-  → Trains Ridge, RF, XGBoost, LSTM
+  → Trains Ridge, RF, XGBoost
   → Champion comparison
-  → Pushes model files ──────────────►  models/*.joblib, *.keras
+  → Pushes model files ──────────────►  models/*.joblib
   → Pushes eval JSON ────────────────►  data/model_eval.json
 
 forecast_pipeline (hourly :04)
@@ -64,7 +63,7 @@ Generated every hour by the forecast pipeline. Contains:
   ],
   "ref_forecast": [
     { "time": "2026-08-22T15:00", "aqi": 104.0 },
-    ...up to 72 hours of Open-Meteo AQ reference
+    ...up to 96 hours of Open-Meteo AQ reference
   ]
 }
 ```
