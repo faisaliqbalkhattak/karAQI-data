@@ -5,9 +5,9 @@
       "model__alpha": 1.0
     },
     "metrics": {
-      "rmse": 16.66496367560654,
-      "mae": 12.945818917300501,
-      "r2": 0.4576936971322626
+      "rmse": 16.63051160111729,
+      "mae": 12.918455098042564,
+      "r2": 0.46272000358455956
     }
   },
   "random_forest_h1": {
@@ -18,9 +18,9 @@
       "max_depth": null
     },
     "metrics": {
-      "rmse": 16.327337289610877,
-      "mae": 12.324342064701295,
-      "r2": 0.47944498092008525
+      "rmse": 16.28542868184935,
+      "mae": 12.332229266650284,
+      "r2": 0.4847857783870253
     }
   },
   "xgboost_h1": {
@@ -29,93 +29,16 @@
       "subsample": 0.7,
       "n_estimators": 200,
       "max_depth": 3,
-      "learning_rate": 0.05,
-      "colsample_bytree": 0.7
-    },
-    "metrics": {
-      "rmse": 15.854656308851023,
-      "mae": 12.088848633020103,
-      "r2": 0.5091491207973193
-    }
-  },
-  "sarima_h1": {
-    "path": null,
-    "params": {
-      "order": [
-        0,
-        1,
-        0
-      ],
-      "seasonal_order": [
-        1,
-        0,
-        0,
-        7
-      ]
-    },
-    "metrics": {
-      "rmse": 29.597916968744443,
-      "mae": 25.718920993577296,
-      "r2": -0.71063835089787
-    }
-  },
-  "lstm_h1": {
-    "path": "models/lstm_h1.keras",
-    "params": {
-      "sequence_length": 14,
-      "epochs": 25,
-      "units": [
-        64,
-        32
-      ],
-      "target_scaling": "StandardScaler fit on the training target, inverse-transformed for metrics"
-    },
-    "metrics": {
-      "rmse": 28.557862052896926,
-      "mae": 22.539253164390725,
-      "r2": -0.5925287891740456
-    }
-  },
-  "ridge_h2": {
-    "path": "models/ridge_h2.joblib",
-    "params": {
-      "model__alpha": 100.0
-    },
-    "metrics": {
-      "rmse": 19.91651417919123,
-      "mae": 16.048996587649157,
-      "r2": 0.22942287588765775
-    }
-  },
-  "random_forest_h2": {
-    "path": "models/random_forest_h2.joblib",
-    "params": {
-      "n_estimators": 400,
-      "min_samples_leaf": 2,
-      "max_depth": null
-    },
-    "metrics": {
-      "rmse": 19.498316226036646,
-      "mae": 15.40180208890221,
-      "r2": 0.2614435903251908
-    }
-  },
-  "xgboost_h2": {
-    "path": "models/xgboost_h2.joblib",
-    "params": {
-      "subsample": 0.7,
-      "n_estimators": 200,
-      "max_depth": 3,
       "learning_rate": 0.03,
       "colsample_bytree": 0.7
     },
     "metrics": {
-      "rmse": 19.36988673372531,
-      "mae": 15.332777503396379,
-      "r2": 0.27114084229015356
+      "rmse": 15.794950952020706,
+      "mae": 12.034221934623458,
+      "r2": 0.515352456563877
     }
   },
-  "sarima_h2": {
+  "sarima_h1": {
     "path": null,
     "params": {
       "order": [
@@ -136,8 +59,8 @@
       "r2": -0.4197599825139624
     }
   },
-  "lstm_h2": {
-    "path": "models/lstm_h2.keras",
+  "lstm_h1": {
+    "path": "models/lstm_h1.keras",
     "params": {
       "sequence_length": 14,
       "epochs": 25,
@@ -148,37 +71,37 @@
       "target_scaling": "StandardScaler fit on the training target, inverse-transformed for metrics"
     },
     "metrics": {
-      "rmse": 26.727471049428132,
-      "mae": 21.368788671846158,
-      "r2": -0.38773067453392085
+      "rmse": 27.46829114074566,
+      "mae": 22.36084105046867,
+      "r2": -0.4657258129202133
     }
   },
-  "ridge_h3": {
-    "path": "models/ridge_h3.joblib",
+  "ridge_h2": {
+    "path": "models/ridge_h2.joblib",
     "params": {
-      "model__alpha": 1000.0
+      "model__alpha": 100.0
     },
     "metrics": {
-      "rmse": 20.549064592286225,
-      "mae": 16.769018662064084,
-      "r2": 0.17710738787209812
+      "rmse": 19.92540999312578,
+      "mae": 16.067738069263815,
+      "r2": 0.2263602182996841
     }
   },
-  "random_forest_h3": {
-    "path": "models/random_forest_h3.joblib",
+  "random_forest_h2": {
+    "path": "models/random_forest_h2.joblib",
     "params": {
       "n_estimators": 400,
-      "min_samples_leaf": 4,
-      "max_depth": 8
+      "min_samples_leaf": 2,
+      "max_depth": null
     },
     "metrics": {
-      "rmse": 20.657318817202405,
-      "mae": 16.413700202889018,
-      "r2": 0.16841441343013308
+      "rmse": 19.54683001406662,
+      "mae": 15.446363190947373,
+      "r2": 0.25547903192070986
     }
   },
-  "xgboost_h3": {
-    "path": "models/xgboost_h3.joblib",
+  "xgboost_h2": {
+    "path": "models/xgboost_h2.joblib",
     "params": {
       "subsample": 0.7,
       "n_estimators": 200,
@@ -187,12 +110,12 @@
       "colsample_bytree": 0.7
     },
     "metrics": {
-      "rmse": 20.524665850641128,
-      "mae": 16.255692644184137,
-      "r2": 0.17906033562908152
+      "rmse": 19.500755930568168,
+      "mae": 15.44830628479419,
+      "r2": 0.25898473520473597
     }
   },
-  "sarima_h3": {
+  "sarima_h2": {
     "path": null,
     "params": {
       "order": [
@@ -208,9 +131,86 @@
       ]
     },
     "metrics": {
-      "rmse": 38.83534052212479,
-      "mae": 34.40136054421769,
-      "r2": -1.9390926983203967
+      "rmse": 38.83310706190831,
+      "mae": 34.39795918367347,
+      "r2": -1.9385192575084975
+    }
+  },
+  "lstm_h2": {
+    "path": "models/lstm_h2.keras",
+    "params": {
+      "sequence_length": 14,
+      "epochs": 25,
+      "units": [
+        64,
+        32
+      ],
+      "target_scaling": "StandardScaler fit on the training target, inverse-transformed for metrics"
+    },
+    "metrics": {
+      "rmse": 26.364365550259446,
+      "mae": 20.49704961667546,
+      "r2": -0.3544373152588991
+    }
+  },
+  "ridge_h3": {
+    "path": "models/ridge_h3.joblib",
+    "params": {
+      "model__alpha": 1000.0
+    },
+    "metrics": {
+      "rmse": 20.57149400682555,
+      "mae": 16.819448035529355,
+      "r2": 0.17357572564898638
+    }
+  },
+  "random_forest_h3": {
+    "path": "models/random_forest_h3.joblib",
+    "params": {
+      "n_estimators": 400,
+      "min_samples_leaf": 1,
+      "max_depth": 8
+    },
+    "metrics": {
+      "rmse": 20.762520085393852,
+      "mae": 16.498503845105155,
+      "r2": 0.15815617770174362
+    }
+  },
+  "xgboost_h3": {
+    "path": "models/xgboost_h3.joblib",
+    "params": {
+      "subsample": 0.7,
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    },
+    "metrics": {
+      "rmse": 20.595270006492132,
+      "mae": 16.304345708315065,
+      "r2": 0.171664302180767
+    }
+  },
+  "sarima_h3": {
+    "path": null,
+    "params": {
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        7
+      ]
+    },
+    "metrics": {
+      "rmse": 60.189912130618396,
+      "mae": 55.81095310269204,
+      "r2": -6.074875743219516
     }
   },
   "lstm_h3": {
@@ -225,13 +225,13 @@
       "target_scaling": "StandardScaler fit on the training target, inverse-transformed for metrics"
     },
     "metrics": {
-      "rmse": 24.38427559902401,
-      "mae": 19.232014520206942,
-      "r2": -0.15872069913368558
+      "rmse": 25.173594372982127,
+      "mae": 19.71871679152038,
+      "r2": -0.23754744584832355
     }
   },
   "_meta": {
-    "created": "2026-08-22",
+    "created": "2026-08-23",
     "target": "aqi_us_epa",
     "horizons_days": [
       1,
@@ -279,13 +279,13 @@
       "day_of_year_sin",
       "day_of_year_cos"
     ],
-    "n_train_rows": 1172,
+    "n_train_rows": 1173,
     "n_test_rows": 294,
     "selection_method": "lowest holdout RMSE among persisted estimators; regenerate after each data refresh",
     "best_model_by_horizon": {
       "1": "xgboost",
       "2": "xgboost",
-      "3": "xgboost"
+      "3": "ridge"
     },
     "evaluation_protocol": "chronological holdout with three-day purge gap; TimeSeriesSplit gap=3 for tuning",
     "forecast_contract": "issue at 00:00 Asia/Karachi after the previous local day is complete"
