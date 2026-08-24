@@ -20,10 +20,10 @@
         "high_aqi_recall": 0.6487557806650518
       },
       "twelve_hour_means": {
-        "mse": 644.3036940722457,
-        "rmse": 25.383137987101705,
-        "mae": 19.308174659144335,
-        "r2": -0.17661778447332743,
+        "mse": 644.1525187078827,
+        "rmse": 25.38015994251972,
+        "mae": 19.306576163610718,
+        "r2": -0.17639073623964996,
         "category_accuracy": 0.6617066290550071,
         "category_macro_f1": 0.20662444621062437,
         "high_aqi_recall": 0.5534820209376422
@@ -51,10 +51,10 @@
         "high_aqi_recall": 0.6044924025545034
       },
       "twelve_hour_means": {
-        "mse": 645.6986997531735,
-        "rmse": 25.41060211315689,
-        "mae": 19.014427597555244,
-        "r2": -0.17916532301566712,
+        "mse": 645.5353809160006,
+        "rmse": 25.407388313559515,
+        "mae": 19.012829102021623,
+        "r2": -0.17891620380188034,
         "category_accuracy": 0.6574047954866008,
         "category_macro_f1": 0.20335246540332938,
         "high_aqi_recall": 0.5065999089667729
@@ -94,10 +94,10 @@
         "high_aqi_recall": 0.5764148865888571
       },
       "twelve_hour_means": {
-        "mse": 401.512898423069,
-        "rmse": 20.037786764587274,
-        "mae": 14.740700123187835,
-        "r2": 0.2667631408504041,
+        "mse": 401.45255000116236,
+        "rmse": 20.036280842540673,
+        "mae": 14.739101627654218,
+        "r2": 0.26684279398848365,
         "category_accuracy": 0.7333568406205924,
         "category_macro_f1": 0.22096889574621992,
         "high_aqi_recall": 0.4091943559399181
@@ -131,10 +131,10 @@
         "high_aqi_recall": 0.5901783748073112
       },
       "twelve_hour_means": {
-        "mse": 425.99154901754963,
-        "rmse": 20.639562713816144,
-        "mae": 15.145857039964081,
-        "r2": 0.22206059468411599,
+        "mse": 425.9462372372666,
+        "rmse": 20.63846499227272,
+        "mae": 15.144396043193693,
+        "r2": 0.22211092393587062,
         "category_accuracy": 0.722919605077574,
         "category_macro_f1": 0.22063448188554383,
         "high_aqi_recall": 0.447200728265817
@@ -192,12 +192,12 @@
     "release_gate_results": {
       "pass": "True",
       "best_model": "ridge",
-      "best_ml_avg_rmse": 22.41822085317769,
-      "persistence_avg_rmse": 24.810885729706722,
-      "best_ml_avg_mae": 17.90842939921276,
-      "persistence_avg_mae": 21.19866071428571,
+      "best_ml_avg_rmse": 22.412931235145738,
+      "persistence_avg_rmse": 24.801846487358645,
+      "best_ml_avg_mae": 17.900933808383833,
+      "persistence_avg_mae": 21.191165123456788,
       "groups_beaten": 3,
-      "reason": "Best model 'ridge' beats persistence: RMSE 22.42 < 24.81, MAE 17.91 < 21.20, beats on 3/3 groups"
+      "reason": "Best model 'ridge' beats persistence: RMSE 22.41 < 24.80, MAE 17.90 < 21.19, beats on 3/3 groups"
     },
     "feature_columns": [
       "aqi_hourly_rolling",
@@ -238,7 +238,7 @@
     "n_test_rows": 7090,
     "target_semantics": "rolling hourly AQI estimate from pollutant-specific EPA windows; not the official daily AQI report",
     "source_file": "feature_store://karak_feature_store.duckdb",
-    "source_sha256": "7f1d16ac60c8b36c7e1551ec9acbe48bb639e7f2fe734c84f38ba63ef26795af",
+    "source_sha256": "e90ea1d3a2c739b7b6e26612d4533b664bd33ae303c84c20e223d60fb8a4ba18",
     "python_version": "3.11.16",
     "numpy_version": "1.26.4",
     "pandas_version": "2.2.3",

@@ -18,9 +18,9 @@
       "max_depth": null
     },
     "metrics": {
-      "rmse": 16.25890987031346,
+      "rmse": 16.258909870313456,
       "mae": 12.301471588889907,
-      "r2": 0.4848583363556471
+      "r2": 0.48485833635564735
     }
   },
   "xgboost_h1": {
@@ -57,23 +57,6 @@
       "rmse": 26.99252786532213,
       "mae": 23.234034603726695,
       "r2": -0.4198123377841876
-    }
-  },
-  "lstm_h1": {
-    "path": "models/lstm_h1.keras",
-    "params": {
-      "sequence_length": 14,
-      "epochs": 25,
-      "units": [
-        64,
-        32
-      ],
-      "target_scaling": "StandardScaler fit on the training target, inverse-transformed for metrics"
-    },
-    "metrics": {
-      "rmse": 27.423167069165725,
-      "mae": 22.30157497166073,
-      "r2": -0.4654771391350012
     }
   },
   "ridge_h2": {
@@ -136,32 +119,15 @@
       "r2": -1.9480806171768497
     }
   },
-  "lstm_h2": {
-    "path": "models/lstm_h2.keras",
-    "params": {
-      "sequence_length": 14,
-      "epochs": 25,
-      "units": [
-        64,
-        32
-      ],
-      "target_scaling": "StandardScaler fit on the training target, inverse-transformed for metrics"
-    },
-    "metrics": {
-      "rmse": 26.332022628463722,
-      "mae": 20.47457562352922,
-      "r2": -0.3547329004682478
-    }
-  },
   "ridge_h3": {
     "path": "models/ridge_h3.joblib",
     "params": {
       "model__alpha": 1000.0
     },
     "metrics": {
-      "rmse": 20.551366350278204,
-      "mae": 16.80499416034369,
-      "r2": 0.17268112454730122
+      "rmse": 20.54638076305604,
+      "mae": 16.79143483830979,
+      "r2": 0.17319815739009348
     }
   },
   "random_forest_h3": {
@@ -172,9 +138,9 @@
       "max_depth": 8
     },
     "metrics": {
-      "rmse": 20.732565922548996,
-      "mae": 16.47673003806843,
-      "r2": 0.15802801636838792
+      "rmse": 20.738500372155766,
+      "mae": 16.490289360102327,
+      "r2": 0.15766379242063433
     }
   },
   "xgboost_h3": {
@@ -187,9 +153,9 @@
       "colsample_bytree": 0.7
     },
     "metrics": {
-      "rmse": 20.57060643148292,
-      "mae": 16.291478147345074,
-      "r2": 0.17113133626561083
+      "rmse": 20.57819092085504,
+      "mae": 16.305037469378973,
+      "r2": 0.17063604614375905
     }
   },
   "sarima_h3": {
@@ -208,26 +174,9 @@
       ]
     },
     "metrics": {
-      "rmse": 60.18460746745005,
-      "mae": 55.8190286860931,
-      "r2": -6.095163299688481
-    }
-  },
-  "lstm_h3": {
-    "path": "models/lstm_h3.keras",
-    "params": {
-      "sequence_length": 14,
-      "epochs": 25,
-      "units": [
-        64,
-        32
-      ],
-      "target_scaling": "StandardScaler fit on the training target, inverse-transformed for metrics"
-    },
-    "metrics": {
-      "rmse": 25.13951329926924,
-      "mae": 19.686995304226176,
-      "r2": -0.2379561502544425
+      "rmse": 60.172622073430524,
+      "mae": 55.805469364059206,
+      "r2": -6.091345492480606
     }
   },
   "_meta": {
