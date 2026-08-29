@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T18:23:20.329561+00:00",
+  "generated_at": "2026-08-29T21:43:06.708825+00:00",
   "source": "store",
   "origin": "2026-08-29T23:00:00",
   "model": "aqi-hourly-xgboost",
@@ -9,7 +9,7 @@
     "main_pollutant": "pm2_5",
     "concentration": 41.0
   },
-  "ref_now": 110.0,
+  "ref_now": 112.0,
   "outputs": [
     {
       "output": "aqi_plus_01h",
@@ -40,7 +40,7 @@
       "kind": "point",
       "start_time": "2026-08-30T03:00:00",
       "end_time": "2026-08-30T03:00:00",
-      "value": 102.7,
+      "value": 102.6,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -56,7 +56,7 @@
       "kind": "point",
       "start_time": "2026-08-30T05:00:00",
       "end_time": "2026-08-30T05:00:00",
-      "value": 103.4,
+      "value": 103.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -64,7 +64,7 @@
       "kind": "point",
       "start_time": "2026-08-30T06:00:00",
       "end_time": "2026-08-30T06:00:00",
-      "value": 101.4,
+      "value": 101.8,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -72,7 +72,7 @@
       "kind": "point",
       "start_time": "2026-08-30T07:00:00",
       "end_time": "2026-08-30T07:00:00",
-      "value": 101.6,
+      "value": 101.9,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -80,7 +80,7 @@
       "kind": "point",
       "start_time": "2026-08-30T08:00:00",
       "end_time": "2026-08-30T08:00:00",
-      "value": 102.2,
+      "value": 102.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -88,7 +88,7 @@
       "kind": "point",
       "start_time": "2026-08-30T09:00:00",
       "end_time": "2026-08-30T09:00:00",
-      "value": 101.7,
+      "value": 102.0,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -96,7 +96,7 @@
       "kind": "point",
       "start_time": "2026-08-30T10:00:00",
       "end_time": "2026-08-30T10:00:00",
-      "value": 100.6,
+      "value": 101.3,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -104,7 +104,7 @@
       "kind": "point",
       "start_time": "2026-08-30T11:00:00",
       "end_time": "2026-08-30T11:00:00",
-      "value": 101.3,
+      "value": 102.0,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -112,7 +112,7 @@
       "kind": "point",
       "start_time": "2026-08-30T12:00:00",
       "end_time": "2026-08-30T12:00:00",
-      "value": 99.6,
+      "value": 99.7,
       "category": "Moderate"
     },
     {
@@ -120,7 +120,7 @@
       "kind": "point",
       "start_time": "2026-08-30T13:00:00",
       "end_time": "2026-08-30T13:00:00",
-      "value": 101.4,
+      "value": 102.3,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -128,7 +128,7 @@
       "kind": "point",
       "start_time": "2026-08-30T14:00:00",
       "end_time": "2026-08-30T14:00:00",
-      "value": 103.1,
+      "value": 103.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -136,7 +136,7 @@
       "kind": "point",
       "start_time": "2026-08-30T15:00:00",
       "end_time": "2026-08-30T15:00:00",
-      "value": 103.4,
+      "value": 103.6,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -144,7 +144,7 @@
       "kind": "point",
       "start_time": "2026-08-30T16:00:00",
       "end_time": "2026-08-30T16:00:00",
-      "value": 102.0,
+      "value": 101.4,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -152,7 +152,7 @@
       "kind": "point",
       "start_time": "2026-08-30T17:00:00",
       "end_time": "2026-08-30T17:00:00",
-      "value": 108.7,
+      "value": 108.4,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -160,7 +160,7 @@
       "kind": "point",
       "start_time": "2026-08-30T18:00:00",
       "end_time": "2026-08-30T18:00:00",
-      "value": 104.8,
+      "value": 104.1,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -168,7 +168,7 @@
       "kind": "point",
       "start_time": "2026-08-30T19:00:00",
       "end_time": "2026-08-30T19:00:00",
-      "value": 101.4,
+      "value": 102.6,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -176,7 +176,7 @@
       "kind": "point",
       "start_time": "2026-08-30T20:00:00",
       "end_time": "2026-08-30T20:00:00",
-      "value": 103.1,
+      "value": 102.6,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -184,7 +184,7 @@
       "kind": "point",
       "start_time": "2026-08-30T21:00:00",
       "end_time": "2026-08-30T21:00:00",
-      "value": 103.6,
+      "value": 103.4,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -200,7 +200,7 @@
       "kind": "point",
       "start_time": "2026-08-30T23:00:00",
       "end_time": "2026-08-30T23:00:00",
-      "value": 102.5,
+      "value": 102.9,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -208,7 +208,7 @@
       "kind": "six_hour_mean",
       "start_time": "2026-08-31T00:00:00",
       "end_time": "2026-08-31T05:00:00",
-      "value": 97.9,
+      "value": 98.5,
       "category": "Moderate"
     },
     {
@@ -216,7 +216,7 @@
       "kind": "six_hour_mean",
       "start_time": "2026-08-31T06:00:00",
       "end_time": "2026-08-31T11:00:00",
-      "value": 112.3,
+      "value": 110.8,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -224,7 +224,7 @@
       "kind": "six_hour_mean",
       "start_time": "2026-08-31T12:00:00",
       "end_time": "2026-08-31T17:00:00",
-      "value": 113.1,
+      "value": 110.9,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -232,7 +232,7 @@
       "kind": "six_hour_mean",
       "start_time": "2026-08-31T18:00:00",
       "end_time": "2026-08-31T23:00:00",
-      "value": 117.3,
+      "value": 116.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -240,7 +240,7 @@
       "kind": "twelve_hour_mean",
       "start_time": "2026-09-01T00:00:00",
       "end_time": "2026-09-01T11:00:00",
-      "value": 103.2,
+      "value": 103.6,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -248,7 +248,7 @@
       "kind": "twelve_hour_mean",
       "start_time": "2026-09-01T12:00:00",
       "end_time": "2026-09-01T23:00:00",
-      "value": 110.9,
+      "value": 108.7,
       "category": "Unhealthy for Sensitive Groups"
     }
   ],
