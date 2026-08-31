@@ -1,106 +1,42 @@
 {
-  "generated_at": "2026-08-30T23:27:55.456840+00:00",
+  "generated_at": "2026-08-31T02:40:03.233157+00:00",
   "source": "store",
-  "origin": "2026-08-30T23:00:00",
+  "origin": "2026-08-31T07:00:00",
   "model": "aqi-hourly-xgboost",
   "current_aqi": {
-    "aqi": 119.0,
+    "aqi": 109.0,
     "category": "Unhealthy for Sensitive Groups",
     "main_pollutant": "pm2_5",
-    "concentration": 39.9
+    "concentration": 41.8
   },
-  "ref_now": 118.0,
+  "ref_now": 114.0,
   "outputs": [
     {
       "output": "aqi_plus_01h",
       "kind": "point",
-      "start_time": "2026-08-31T00:00:00",
-      "end_time": "2026-08-31T00:00:00",
-      "value": 117.4,
+      "start_time": "2026-08-31T08:00:00",
+      "end_time": "2026-08-31T08:00:00",
+      "value": 109.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_02h",
       "kind": "point",
-      "start_time": "2026-08-31T01:00:00",
-      "end_time": "2026-08-31T01:00:00",
-      "value": 116.5,
+      "start_time": "2026-08-31T09:00:00",
+      "end_time": "2026-08-31T09:00:00",
+      "value": 109.9,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_03h",
       "kind": "point",
-      "start_time": "2026-08-31T02:00:00",
-      "end_time": "2026-08-31T02:00:00",
-      "value": 116.2,
-      "category": "Unhealthy for Sensitive Groups"
-    },
-    {
-      "output": "aqi_plus_04h",
-      "kind": "point",
-      "start_time": "2026-08-31T03:00:00",
-      "end_time": "2026-08-31T03:00:00",
-      "value": 115.6,
-      "category": "Unhealthy for Sensitive Groups"
-    },
-    {
-      "output": "aqi_plus_05h",
-      "kind": "point",
-      "start_time": "2026-08-31T04:00:00",
-      "end_time": "2026-08-31T04:00:00",
-      "value": 115.2,
-      "category": "Unhealthy for Sensitive Groups"
-    },
-    {
-      "output": "aqi_plus_06h",
-      "kind": "point",
-      "start_time": "2026-08-31T05:00:00",
-      "end_time": "2026-08-31T05:00:00",
-      "value": 114.4,
-      "category": "Unhealthy for Sensitive Groups"
-    },
-    {
-      "output": "aqi_plus_07h",
-      "kind": "point",
-      "start_time": "2026-08-31T06:00:00",
-      "end_time": "2026-08-31T06:00:00",
-      "value": 114.0,
-      "category": "Unhealthy for Sensitive Groups"
-    },
-    {
-      "output": "aqi_plus_08h",
-      "kind": "point",
-      "start_time": "2026-08-31T07:00:00",
-      "end_time": "2026-08-31T07:00:00",
-      "value": 112.3,
-      "category": "Unhealthy for Sensitive Groups"
-    },
-    {
-      "output": "aqi_plus_09h",
-      "kind": "point",
-      "start_time": "2026-08-31T08:00:00",
-      "end_time": "2026-08-31T08:00:00",
-      "value": 111.3,
-      "category": "Unhealthy for Sensitive Groups"
-    },
-    {
-      "output": "aqi_plus_10h",
-      "kind": "point",
-      "start_time": "2026-08-31T09:00:00",
-      "end_time": "2026-08-31T09:00:00",
+      "start_time": "2026-08-31T10:00:00",
+      "end_time": "2026-08-31T10:00:00",
       "value": 110.3,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
-      "output": "aqi_plus_11h",
-      "kind": "point",
-      "start_time": "2026-08-31T10:00:00",
-      "end_time": "2026-08-31T10:00:00",
-      "value": 108.0,
-      "category": "Unhealthy for Sensitive Groups"
-    },
-    {
-      "output": "aqi_plus_12h",
+      "output": "aqi_plus_04h",
       "kind": "point",
       "start_time": "2026-08-31T11:00:00",
       "end_time": "2026-08-31T11:00:00",
@@ -108,183 +44,215 @@
       "category": "Unhealthy for Sensitive Groups"
     },
     {
-      "output": "aqi_plus_13h",
+      "output": "aqi_plus_05h",
       "kind": "point",
       "start_time": "2026-08-31T12:00:00",
       "end_time": "2026-08-31T12:00:00",
-      "value": 106.5,
+      "value": 109.0,
+      "category": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "output": "aqi_plus_06h",
+      "kind": "point",
+      "start_time": "2026-08-31T13:00:00",
+      "end_time": "2026-08-31T13:00:00",
+      "value": 111.0,
+      "category": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "output": "aqi_plus_07h",
+      "kind": "point",
+      "start_time": "2026-08-31T14:00:00",
+      "end_time": "2026-08-31T14:00:00",
+      "value": 111.6,
+      "category": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "output": "aqi_plus_08h",
+      "kind": "point",
+      "start_time": "2026-08-31T15:00:00",
+      "end_time": "2026-08-31T15:00:00",
+      "value": 114.0,
+      "category": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "output": "aqi_plus_09h",
+      "kind": "point",
+      "start_time": "2026-08-31T16:00:00",
+      "end_time": "2026-08-31T16:00:00",
+      "value": 113.1,
+      "category": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "output": "aqi_plus_10h",
+      "kind": "point",
+      "start_time": "2026-08-31T17:00:00",
+      "end_time": "2026-08-31T17:00:00",
+      "value": 115.0,
+      "category": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "output": "aqi_plus_11h",
+      "kind": "point",
+      "start_time": "2026-08-31T18:00:00",
+      "end_time": "2026-08-31T18:00:00",
+      "value": 116.0,
+      "category": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "output": "aqi_plus_12h",
+      "kind": "point",
+      "start_time": "2026-08-31T19:00:00",
+      "end_time": "2026-08-31T19:00:00",
+      "value": 110.8,
+      "category": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "output": "aqi_plus_13h",
+      "kind": "point",
+      "start_time": "2026-08-31T20:00:00",
+      "end_time": "2026-08-31T20:00:00",
+      "value": 114.7,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_14h",
       "kind": "point",
-      "start_time": "2026-08-31T13:00:00",
-      "end_time": "2026-08-31T13:00:00",
-      "value": 107.4,
+      "start_time": "2026-08-31T21:00:00",
+      "end_time": "2026-08-31T21:00:00",
+      "value": 112.8,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_15h",
       "kind": "point",
-      "start_time": "2026-08-31T14:00:00",
-      "end_time": "2026-08-31T14:00:00",
-      "value": 106.1,
+      "start_time": "2026-08-31T22:00:00",
+      "end_time": "2026-08-31T22:00:00",
+      "value": 113.1,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_16h",
       "kind": "point",
-      "start_time": "2026-08-31T15:00:00",
-      "end_time": "2026-08-31T15:00:00",
-      "value": 106.0,
+      "start_time": "2026-08-31T23:00:00",
+      "end_time": "2026-08-31T23:00:00",
+      "value": 115.2,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_17h",
       "kind": "point",
-      "start_time": "2026-08-31T16:00:00",
-      "end_time": "2026-08-31T16:00:00",
-      "value": 107.6,
+      "start_time": "2026-09-01T00:00:00",
+      "end_time": "2026-09-01T00:00:00",
+      "value": 110.2,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_18h",
       "kind": "point",
-      "start_time": "2026-08-31T17:00:00",
-      "end_time": "2026-08-31T17:00:00",
-      "value": 105.9,
+      "start_time": "2026-09-01T01:00:00",
+      "end_time": "2026-09-01T01:00:00",
+      "value": 110.7,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_19h",
       "kind": "point",
-      "start_time": "2026-08-31T18:00:00",
-      "end_time": "2026-08-31T18:00:00",
-      "value": 107.4,
+      "start_time": "2026-09-01T02:00:00",
+      "end_time": "2026-09-01T02:00:00",
+      "value": 109.9,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_20h",
       "kind": "point",
-      "start_time": "2026-08-31T19:00:00",
-      "end_time": "2026-08-31T19:00:00",
-      "value": 106.8,
+      "start_time": "2026-09-01T03:00:00",
+      "end_time": "2026-09-01T03:00:00",
+      "value": 113.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_21h",
       "kind": "point",
-      "start_time": "2026-08-31T20:00:00",
-      "end_time": "2026-08-31T20:00:00",
-      "value": 108.6,
+      "start_time": "2026-09-01T04:00:00",
+      "end_time": "2026-09-01T04:00:00",
+      "value": 112.6,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_22h",
       "kind": "point",
-      "start_time": "2026-08-31T21:00:00",
-      "end_time": "2026-08-31T21:00:00",
-      "value": 107.9,
+      "start_time": "2026-09-01T05:00:00",
+      "end_time": "2026-09-01T05:00:00",
+      "value": 111.1,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_23h",
       "kind": "point",
-      "start_time": "2026-08-31T22:00:00",
-      "end_time": "2026-08-31T22:00:00",
-      "value": 110.6,
+      "start_time": "2026-09-01T06:00:00",
+      "end_time": "2026-09-01T06:00:00",
+      "value": 111.3,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_plus_24h",
       "kind": "point",
-      "start_time": "2026-08-31T23:00:00",
-      "end_time": "2026-08-31T23:00:00",
-      "value": 110.2,
+      "start_time": "2026-09-01T07:00:00",
+      "end_time": "2026-09-01T07:00:00",
+      "value": 109.9,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_mean_25_30h",
       "kind": "six_hour_mean",
-      "start_time": "2026-09-01T00:00:00",
-      "end_time": "2026-09-01T05:00:00",
-      "value": 106.4,
+      "start_time": "2026-09-01T08:00:00",
+      "end_time": "2026-09-01T13:00:00",
+      "value": 109.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_mean_31_36h",
       "kind": "six_hour_mean",
-      "start_time": "2026-09-01T06:00:00",
-      "end_time": "2026-09-01T11:00:00",
-      "value": 106.9,
+      "start_time": "2026-09-01T14:00:00",
+      "end_time": "2026-09-01T19:00:00",
+      "value": 108.7,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_mean_37_42h",
       "kind": "six_hour_mean",
-      "start_time": "2026-09-01T12:00:00",
-      "end_time": "2026-09-01T17:00:00",
-      "value": 107.0,
+      "start_time": "2026-09-01T20:00:00",
+      "end_time": "2026-09-02T01:00:00",
+      "value": 103.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_mean_43_48h",
       "kind": "six_hour_mean",
-      "start_time": "2026-09-01T18:00:00",
-      "end_time": "2026-09-01T23:00:00",
-      "value": 109.1,
+      "start_time": "2026-09-02T02:00:00",
+      "end_time": "2026-09-02T07:00:00",
+      "value": 102.6,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_mean_49_60h",
       "kind": "twelve_hour_mean",
-      "start_time": "2026-09-02T00:00:00",
-      "end_time": "2026-09-02T11:00:00",
-      "value": 100.2,
-      "category": "Moderate"
+      "start_time": "2026-09-02T08:00:00",
+      "end_time": "2026-09-02T19:00:00",
+      "value": 100.6,
+      "category": "Unhealthy for Sensitive Groups"
     },
     {
       "output": "aqi_mean_61_72h",
       "kind": "twelve_hour_mean",
-      "start_time": "2026-09-02T12:00:00",
-      "end_time": "2026-09-02T23:00:00",
-      "value": 100.3,
-      "category": "Moderate"
+      "start_time": "2026-09-02T20:00:00",
+      "end_time": "2026-09-03T07:00:00",
+      "value": 102.9,
+      "category": "Unhealthy for Sensitive Groups"
     }
   ],
   "ref_forecast": [
-    {
-      "time": "2026-08-31T00:00",
-      "aqi": 122.0
-    },
-    {
-      "time": "2026-08-31T01:00",
-      "aqi": 122.0
-    },
-    {
-      "time": "2026-08-31T02:00",
-      "aqi": 122.0
-    },
-    {
-      "time": "2026-08-31T03:00",
-      "aqi": 121.0
-    },
-    {
-      "time": "2026-08-31T04:00",
-      "aqi": 120.0
-    },
-    {
-      "time": "2026-08-31T05:00",
-      "aqi": 118.0
-    },
-    {
-      "time": "2026-08-31T06:00",
-      "aqi": 116.0
-    },
-    {
-      "time": "2026-08-31T07:00",
-      "aqi": 115.0
-    },
     {
       "time": "2026-08-31T08:00",
       "aqi": 114.0
@@ -540,6 +508,38 @@
     {
       "time": "2026-09-02T23:00",
       "aqi": 102.0
+    },
+    {
+      "time": "2026-09-03T00:00",
+      "aqi": 102.0
+    },
+    {
+      "time": "2026-09-03T01:00",
+      "aqi": 103.0
+    },
+    {
+      "time": "2026-09-03T02:00",
+      "aqi": 103.0
+    },
+    {
+      "time": "2026-09-03T03:00",
+      "aqi": 105.0
+    },
+    {
+      "time": "2026-09-03T04:00",
+      "aqi": 107.0
+    },
+    {
+      "time": "2026-09-03T05:00",
+      "aqi": 108.0
+    },
+    {
+      "time": "2026-09-03T06:00",
+      "aqi": 110.0
+    },
+    {
+      "time": "2026-09-03T07:00",
+      "aqi": 111.0
     }
   ]
 }
