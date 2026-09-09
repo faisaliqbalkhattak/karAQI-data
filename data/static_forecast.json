@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T19:42:58.793428+00:00",
+  "generated_at": "2026-09-09T22:30:45.075869+00:00",
   "source": "store",
   "origin": "2026-09-09T23:00:00",
   "model": "aqi-hourly-xgboost",
@@ -9,7 +9,7 @@
     "main_pollutant": "pm2_5",
     "concentration": 48.5
   },
-  "ref_now": 126.0,
+  "ref_now": 124.0,
   "outputs": [
     {
       "output": "aqi_plus_01h",
