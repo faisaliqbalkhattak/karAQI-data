@@ -5,9 +5,9 @@
       "model__alpha": 1.0
     },
     "metrics": {
-      "rmse": 16.558307772668027,
-      "mae": 12.845457909002814,
-      "r2": 0.4559407523718232
+      "rmse": 16.540821016239754,
+      "mae": 12.82621820721353,
+      "r2": 0.45546733248805393
     }
   },
   "random_forest_h1": {
@@ -18,9 +18,9 @@
       "max_depth": null
     },
     "metrics": {
-      "rmse": 16.233538538329437,
-      "mae": 12.349708734012594,
-      "r2": 0.477073455231249
+      "rmse": 16.214396160488064,
+      "mae": 12.336467721082181,
+      "r2": 0.4767474253384725
     }
   },
   "xgboost_h1": {
@@ -29,76 +29,16 @@
       "subsample": 0.7,
       "n_estimators": 200,
       "max_depth": 3,
-      "learning_rate": 0.03,
+      "learning_rate": 0.05,
       "colsample_bytree": 0.7
     },
     "metrics": {
-      "rmse": 15.5786009043802,
-      "mae": 11.866610303021117,
-      "r2": 0.5184169437617651
+      "rmse": 15.625246869867725,
+      "mae": 11.86972557938339,
+      "r2": 0.5140813256521617
     }
   },
   "sarima_h1": {
-    "path": null,
-    "params": {
-      "order": [
-        0,
-        1,
-        0
-      ],
-      "seasonal_order": [
-        1,
-        0,
-        0,
-        7
-      ]
-    },
-    "metrics": {
-      "rmse": 34.5834070066412,
-      "mae": 27.716630798718825,
-      "r2": -1.373284741219622
-    }
-  },
-  "ridge_h2": {
-    "path": "models/ridge_h2.joblib",
-    "params": {
-      "model__alpha": 100.0
-    },
-    "metrics": {
-      "rmse": 19.617394782324382,
-      "mae": 15.634876646736101,
-      "r2": 0.2340640072143091
-    }
-  },
-  "random_forest_h2": {
-    "path": "models/random_forest_h2.joblib",
-    "params": {
-      "n_estimators": 400,
-      "min_samples_leaf": 4,
-      "max_depth": null
-    },
-    "metrics": {
-      "rmse": 19.262250571435615,
-      "mae": 15.173207659548458,
-      "r2": 0.26154528037363856
-    }
-  },
-  "xgboost_h2": {
-    "path": "models/xgboost_h2.joblib",
-    "params": {
-      "subsample": 0.7,
-      "n_estimators": 200,
-      "max_depth": 3,
-      "learning_rate": 0.03,
-      "colsample_bytree": 0.7
-    },
-    "metrics": {
-      "rmse": 19.178594183528382,
-      "mae": 15.103999528308842,
-      "r2": 0.2679456027017134
-    }
-  },
-  "sarima_h2": {
     "path": null,
     "params": {
       "order": [
@@ -119,32 +59,32 @@
       "r2": -1.5100425531647264
     }
   },
-  "ridge_h3": {
-    "path": "models/ridge_h3.joblib",
+  "ridge_h2": {
+    "path": "models/ridge_h2.joblib",
     "params": {
-      "model__alpha": 1000.0
+      "model__alpha": 100.0
     },
     "metrics": {
-      "rmse": 20.161278786209145,
-      "mae": 16.32195445500469,
-      "r2": 0.1876583436989122
+      "rmse": 19.58260317019202,
+      "mae": 15.5998381797897,
+      "r2": 0.2328317051011406
     }
   },
-  "random_forest_h3": {
-    "path": "models/random_forest_h3.joblib",
+  "random_forest_h2": {
+    "path": "models/random_forest_h2.joblib",
     "params": {
       "n_estimators": 400,
-      "min_samples_leaf": 1,
-      "max_depth": 8
+      "min_samples_leaf": 4,
+      "max_depth": null
     },
     "metrics": {
-      "rmse": 20.220607237951743,
-      "mae": 15.845994969749409,
-      "r2": 0.1828703652409971
+      "rmse": 19.250502008329924,
+      "mae": 15.15227069939416,
+      "r2": 0.2586318600203219
     }
   },
-  "xgboost_h3": {
-    "path": "models/xgboost_h3.joblib",
+  "xgboost_h2": {
+    "path": "models/xgboost_h2.joblib",
     "params": {
       "subsample": 0.7,
       "n_estimators": 200,
@@ -153,12 +93,12 @@
       "colsample_bytree": 0.7
     },
     "metrics": {
-      "rmse": 19.977129162831833,
-      "mae": 15.615316275782233,
-      "r2": 0.2024301482136498
+      "rmse": 19.242247700921748,
+      "mae": 15.06921204944585,
+      "r2": 0.2592674973205523
     }
   },
-  "sarima_h3": {
+  "sarima_h2": {
     "path": null,
     "params": {
       "order": [
@@ -174,13 +114,73 @@
       ]
     },
     "metrics": {
-      "rmse": 29.752295312051036,
-      "mae": 22.792866324048298,
-      "r2": -0.7690639241971913
+      "rmse": 29.760540497939346,
+      "mae": 22.806757944652844,
+      "r2": -0.7718682597729578
+    }
+  },
+  "ridge_h3": {
+    "path": "models/ridge_h3.joblib",
+    "params": {
+      "model__alpha": 1000.0
+    },
+    "metrics": {
+      "rmse": 20.14257672779697,
+      "mae": 16.29631130027782,
+      "r2": 0.18689309547986765
+    }
+  },
+  "random_forest_h3": {
+    "path": "models/random_forest_h3.joblib",
+    "params": {
+      "n_estimators": 400,
+      "min_samples_leaf": 4,
+      "max_depth": 8
+    },
+    "metrics": {
+      "rmse": 20.18819739990396,
+      "mae": 15.802282177902848,
+      "r2": 0.18320573299406617
+    }
+  },
+  "xgboost_h3": {
+    "path": "models/xgboost_h3.joblib",
+    "params": {
+      "subsample": 0.7,
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    },
+    "metrics": {
+      "rmse": 19.961368519890954,
+      "mae": 15.612503691807689,
+      "r2": 0.20145715883982085
+    }
+  },
+  "sarima_h3": {
+    "path": null,
+    "params": {
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        7
+      ]
+    },
+    "metrics": {
+      "rmse": 33.85789206847313,
+      "mae": 27.015214611549997,
+      "r2": -1.2974042918325006
     }
   },
   "_meta": {
-    "created": "2026-09-08",
+    "created": "2026-09-09",
     "target": "aqi_us_epa",
     "horizons_days": [
       1,
@@ -228,7 +228,7 @@
       "day_of_year_sin",
       "day_of_year_cos"
     ],
-    "n_train_rows": 1185,
+    "n_train_rows": 1186,
     "n_test_rows": 298,
     "selection_method": "lowest holdout RMSE among persisted estimators; regenerate after each data refresh",
     "best_model_by_horizon": {
