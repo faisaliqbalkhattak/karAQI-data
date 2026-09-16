@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:09:08.837664+00:00",
+  "generated_at": "2026-09-16T22:06:54.064740+00:00",
   "source": "store",
   "origin": "2026-09-16T23:00:00",
   "model": "aqi-hourly-xgboost",
@@ -9,7 +9,7 @@
     "main_pollutant": "pm2_5",
     "concentration": 31.5
   },
-  "ref_now": 136.0,
+  "ref_now": 117.0,
   "outputs": [
     {
       "output": "aqi_plus_01h",
@@ -24,7 +24,7 @@
       "kind": "point",
       "start_time": "2026-09-17T01:00:00",
       "end_time": "2026-09-17T01:00:00",
-      "value": 140.8,
+      "value": 140.9,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -32,7 +32,7 @@
       "kind": "point",
       "start_time": "2026-09-17T02:00:00",
       "end_time": "2026-09-17T02:00:00",
-      "value": 131.6,
+      "value": 132.4,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -40,7 +40,7 @@
       "kind": "point",
       "start_time": "2026-09-17T03:00:00",
       "end_time": "2026-09-17T03:00:00",
-      "value": 122.5,
+      "value": 123.1,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -48,7 +48,7 @@
       "kind": "point",
       "start_time": "2026-09-17T04:00:00",
       "end_time": "2026-09-17T04:00:00",
-      "value": 126.7,
+      "value": 127.4,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -56,7 +56,7 @@
       "kind": "point",
       "start_time": "2026-09-17T05:00:00",
       "end_time": "2026-09-17T05:00:00",
-      "value": 123.7,
+      "value": 123.5,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -64,7 +64,7 @@
       "kind": "point",
       "start_time": "2026-09-17T06:00:00",
       "end_time": "2026-09-17T06:00:00",
-      "value": 120.2,
+      "value": 120.4,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -72,7 +72,7 @@
       "kind": "point",
       "start_time": "2026-09-17T07:00:00",
       "end_time": "2026-09-17T07:00:00",
-      "value": 120.0,
+      "value": 120.7,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -80,7 +80,7 @@
       "kind": "point",
       "start_time": "2026-09-17T08:00:00",
       "end_time": "2026-09-17T08:00:00",
-      "value": 112.9,
+      "value": 111.6,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -88,7 +88,7 @@
       "kind": "point",
       "start_time": "2026-09-17T09:00:00",
       "end_time": "2026-09-17T09:00:00",
-      "value": 108.6,
+      "value": 110.2,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -96,7 +96,7 @@
       "kind": "point",
       "start_time": "2026-09-17T10:00:00",
       "end_time": "2026-09-17T10:00:00",
-      "value": 100.8,
+      "value": 103.3,
       "category": "Unhealthy for Sensitive Groups"
     },
     {
@@ -104,15 +104,15 @@
       "kind": "point",
       "start_time": "2026-09-17T11:00:00",
       "end_time": "2026-09-17T11:00:00",
-      "value": 103.4,
-      "category": "Unhealthy for Sensitive Groups"
+      "value": 99.2,
+      "category": "Moderate"
     },
     {
       "output": "aqi_plus_13h",
       "kind": "point",
       "start_time": "2026-09-17T12:00:00",
       "end_time": "2026-09-17T12:00:00",
-      "value": 97.8,
+      "value": 100.4,
       "category": "Moderate"
     },
     {
@@ -120,7 +120,7 @@
       "kind": "point",
       "start_time": "2026-09-17T13:00:00",
       "end_time": "2026-09-17T13:00:00",
-      "value": 99.8,
+      "value": 100.4,
       "category": "Moderate"
     },
     {
@@ -128,7 +128,7 @@
       "kind": "point",
       "start_time": "2026-09-17T14:00:00",
       "end_time": "2026-09-17T14:00:00",
-      "value": 98.1,
+      "value": 97.4,
       "category": "Moderate"
     },
     {
@@ -136,7 +136,7 @@
       "kind": "point",
       "start_time": "2026-09-17T15:00:00",
       "end_time": "2026-09-17T15:00:00",
-      "value": 88.2,
+      "value": 91.7,
       "category": "Moderate"
     },
     {
@@ -144,7 +144,7 @@
       "kind": "point",
       "start_time": "2026-09-17T16:00:00",
       "end_time": "2026-09-17T16:00:00",
-      "value": 92.9,
+      "value": 94.8,
       "category": "Moderate"
     },
     {
@@ -152,7 +152,7 @@
       "kind": "point",
       "start_time": "2026-09-17T17:00:00",
       "end_time": "2026-09-17T17:00:00",
-      "value": 85.1,
+      "value": 87.4,
       "category": "Moderate"
     },
     {
@@ -160,7 +160,7 @@
       "kind": "point",
       "start_time": "2026-09-17T18:00:00",
       "end_time": "2026-09-17T18:00:00",
-      "value": 79.3,
+      "value": 81.1,
       "category": "Moderate"
     },
     {
@@ -168,7 +168,7 @@
       "kind": "point",
       "start_time": "2026-09-17T19:00:00",
       "end_time": "2026-09-17T19:00:00",
-      "value": 86.4,
+      "value": 85.9,
       "category": "Moderate"
     },
     {
@@ -176,7 +176,7 @@
       "kind": "point",
       "start_time": "2026-09-17T20:00:00",
       "end_time": "2026-09-17T20:00:00",
-      "value": 84.7,
+      "value": 85.7,
       "category": "Moderate"
     },
     {
@@ -184,7 +184,7 @@
       "kind": "point",
       "start_time": "2026-09-17T21:00:00",
       "end_time": "2026-09-17T21:00:00",
-      "value": 76.1,
+      "value": 82.8,
       "category": "Moderate"
     },
     {
@@ -192,7 +192,7 @@
       "kind": "point",
       "start_time": "2026-09-17T22:00:00",
       "end_time": "2026-09-17T22:00:00",
-      "value": 72.6,
+      "value": 77.4,
       "category": "Moderate"
     },
     {
@@ -200,7 +200,7 @@
       "kind": "point",
       "start_time": "2026-09-17T23:00:00",
       "end_time": "2026-09-17T23:00:00",
-      "value": 78.5,
+      "value": 76.3,
       "category": "Moderate"
     },
     {
@@ -208,7 +208,7 @@
       "kind": "six_hour_mean",
       "start_time": "2026-09-18T00:00:00",
       "end_time": "2026-09-18T05:00:00",
-      "value": 68.6,
+      "value": 70.2,
       "category": "Moderate"
     },
     {
@@ -216,7 +216,7 @@
       "kind": "six_hour_mean",
       "start_time": "2026-09-18T06:00:00",
       "end_time": "2026-09-18T11:00:00",
-      "value": 66.4,
+      "value": 68.8,
       "category": "Moderate"
     },
     {
@@ -224,7 +224,7 @@
       "kind": "six_hour_mean",
       "start_time": "2026-09-18T12:00:00",
       "end_time": "2026-09-18T17:00:00",
-      "value": 87.0,
+      "value": 84.8,
       "category": "Moderate"
     },
     {
@@ -232,7 +232,7 @@
       "kind": "six_hour_mean",
       "start_time": "2026-09-18T18:00:00",
       "end_time": "2026-09-18T23:00:00",
-      "value": 84.2,
+      "value": 79.6,
       "category": "Moderate"
     },
     {
@@ -240,7 +240,7 @@
       "kind": "twelve_hour_mean",
       "start_time": "2026-09-19T00:00:00",
       "end_time": "2026-09-19T11:00:00",
-      "value": 76.5,
+      "value": 75.4,
       "category": "Moderate"
     },
     {
@@ -248,7 +248,7 @@
       "kind": "twelve_hour_mean",
       "start_time": "2026-09-19T12:00:00",
       "end_time": "2026-09-19T23:00:00",
-      "value": 83.9,
+      "value": 83.7,
       "category": "Moderate"
     }
   ],
