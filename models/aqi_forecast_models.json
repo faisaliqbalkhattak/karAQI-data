@@ -5,9 +5,9 @@
       "model__alpha": 1.0
     },
     "metrics": {
-      "rmse": 16.72985613242561,
-      "mae": 12.98501876967557,
-      "r2": 0.43068950594153477
+      "rmse": 16.669201453746997,
+      "mae": 12.906453397031738,
+      "r2": 0.4358767006214108
     }
   },
   "random_forest_h1": {
@@ -18,9 +18,9 @@
       "max_depth": null
     },
     "metrics": {
-      "rmse": 16.24347633693524,
-      "mae": 12.403191669627146,
-      "r2": 0.4633109471381476
+      "rmse": 16.23380534321072,
+      "mae": 12.365976989381972,
+      "r2": 0.46496139998927255
     }
   },
   "xgboost_h1": {
@@ -33,72 +33,12 @@
       "colsample_bytree": 0.7
     },
     "metrics": {
-      "rmse": 15.913306152754648,
-      "mae": 12.084595981720955,
-      "r2": 0.48490704151405895
+      "rmse": 15.920983438459995,
+      "mae": 12.07544681179908,
+      "r2": 0.4853828823710836
     }
   },
   "sarima_h1": {
-    "path": null,
-    "params": {
-      "order": [
-        1,
-        1,
-        0
-      ],
-      "seasonal_order": [
-        0,
-        0,
-        0,
-        7
-      ]
-    },
-    "metrics": {
-      "rmse": 24.736894461688628,
-      "mae": 19.17330739825579,
-      "r2": -0.24467259950086317
-    }
-  },
-  "ridge_h2": {
-    "path": "models/ridge_h2.joblib",
-    "params": {
-      "model__alpha": 100.0
-    },
-    "metrics": {
-      "rmse": 18.790925434920503,
-      "mae": 15.001111739559025,
-      "r2": 0.28312937425528706
-    }
-  },
-  "random_forest_h2": {
-    "path": "models/random_forest_h2.joblib",
-    "params": {
-      "n_estimators": 400,
-      "min_samples_leaf": 2,
-      "max_depth": null
-    },
-    "metrics": {
-      "rmse": 18.66914981208366,
-      "mae": 14.609898340257415,
-      "r2": 0.2923907062272313
-    }
-  },
-  "xgboost_h2": {
-    "path": "models/xgboost_h2.joblib",
-    "params": {
-      "subsample": 0.7,
-      "n_estimators": 200,
-      "max_depth": 3,
-      "learning_rate": 0.03,
-      "colsample_bytree": 0.7
-    },
-    "metrics": {
-      "rmse": 18.742902591236174,
-      "mae": 14.73075465540732,
-      "r2": 0.286788818881887
-    }
-  },
-  "sarima_h2": {
     "path": null,
     "params": {
       "order": [
@@ -119,32 +59,32 @@
       "r2": -0.22936750845707543
     }
   },
-  "ridge_h3": {
-    "path": "models/ridge_h3.joblib",
+  "ridge_h2": {
+    "path": "models/ridge_h2.joblib",
     "params": {
       "model__alpha": 100.0
     },
     "metrics": {
-      "rmse": 19.74732522493272,
-      "mae": 15.875943615745593,
-      "r2": 0.2123374639634148
+      "rmse": 18.832896464064582,
+      "mae": 15.061722987742929,
+      "r2": 0.2846612137774489
     }
   },
-  "random_forest_h3": {
-    "path": "models/random_forest_h3.joblib",
+  "random_forest_h2": {
+    "path": "models/random_forest_h2.joblib",
     "params": {
       "n_estimators": 400,
-      "min_samples_leaf": 1,
-      "max_depth": 8
+      "min_samples_leaf": 4,
+      "max_depth": null
     },
     "metrics": {
-      "rmse": 19.878564963527754,
-      "mae": 15.674780304333792,
-      "r2": 0.20183314210661607
+      "rmse": 18.73560419012169,
+      "mae": 14.704996970792402,
+      "r2": 0.29203311916294084
     }
   },
-  "xgboost_h3": {
-    "path": "models/xgboost_h3.joblib",
+  "xgboost_h2": {
+    "path": "models/xgboost_h2.joblib",
     "params": {
       "subsample": 0.7,
       "n_estimators": 200,
@@ -153,12 +93,12 @@
       "colsample_bytree": 0.7
     },
     "metrics": {
-      "rmse": 19.74401558228815,
-      "mae": 15.663219821068548,
-      "r2": 0.21260146559736093
+      "rmse": 18.761389552601035,
+      "mae": 14.794744774603075,
+      "r2": 0.290083062517284
     }
   },
-  "sarima_h3": {
+  "sarima_h2": {
     "path": null,
     "params": {
       "order": [
@@ -174,13 +114,73 @@
       ]
     },
     "metrics": {
-      "rmse": 22.340369012437776,
-      "mae": 17.92751209996741,
-      "r2": -0.008101629388577392
+      "rmse": 22.35774306983853,
+      "mae": 17.93681910546116,
+      "r2": -0.008169275324563907
+    }
+  },
+  "ridge_h3": {
+    "path": "models/ridge_h3.joblib",
+    "params": {
+      "model__alpha": 100.0
+    },
+    "metrics": {
+      "rmse": 19.71741846144101,
+      "mae": 15.846370146573149,
+      "r2": 0.22015815709426168
+    }
+  },
+  "random_forest_h3": {
+    "path": "models/random_forest_h3.joblib",
+    "params": {
+      "n_estimators": 400,
+      "min_samples_leaf": 4,
+      "max_depth": 8
+    },
+    "metrics": {
+      "rmse": 19.94713837929419,
+      "mae": 15.693966164883117,
+      "r2": 0.20188104036744847
+    }
+  },
+  "xgboost_h3": {
+    "path": "models/xgboost_h3.joblib",
+    "params": {
+      "subsample": 0.7,
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    },
+    "metrics": {
+      "rmse": 19.634008871721754,
+      "mae": 15.52781733851279,
+      "r2": 0.2267420521707798
+    }
+  },
+  "sarima_h3": {
+    "path": null,
+    "params": {
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        7
+      ]
+    },
+    "metrics": {
+      "rmse": 26.64231414922147,
+      "mae": 22.490322580645163,
+      "r2": -0.42380435368865266
     }
   },
   "_meta": {
-    "created": "2026-11-07",
+    "created": "2026-11-08",
     "target": "aqi_us_epa",
     "horizons_days": [
       1,
@@ -228,7 +228,7 @@
       "day_of_year_sin",
       "day_of_year_cos"
     ],
-    "n_train_rows": 1233,
+    "n_train_rows": 1234,
     "n_test_rows": 310,
     "selection_method": "lowest holdout RMSE among persisted estimators; regenerate after each data refresh",
     "best_model_by_horizon": {
